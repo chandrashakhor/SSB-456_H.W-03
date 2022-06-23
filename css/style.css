@@ -1,0 +1,61 @@
+/*common start*/
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: #172d5c;
+	background-color: deepskyblue;
+	
+}
+/*common end*/
+/*header start*/
+header{}
+.container {
+}
+
+.logo {
+}
+
+.logo img{}
+
+.menu {
+}
+
+.menu ul{}
+.menu li{}
+.menu li a{
+}
+
+h2{
+	color: khaki;
+	text-align: center;
+}
+details summary{
+	color: lightgreen;
+	text-align: center;
+}
+
+
+/*header end*/
+
+h1{
+	color: red;
+	text-align: center;
+}
+p {color: red;}
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+
+#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+}
+
+#main div {
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+}
